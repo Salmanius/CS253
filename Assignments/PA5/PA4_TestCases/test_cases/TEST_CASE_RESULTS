@@ -1,0 +1,25 @@
+./PA4 correctfiles.txt
+
+class1_00003.pgm	class1_00004.pgm	0.990784
+class1_00004.pgm	class1_00003.pgm	0.990784
+class2_01521.pgm	class3_00264.pgm	0.861877
+class3_00263.pgm	class3_00264.pgm	0.963806
+class3_00264.pgm	class3_00263.pgm	0.963806
+class4_00379.pgm	class4_00380.pgm	0.978394
+class4_00380.pgm	class4_00379.pgm	0.978394
+
+
+./PA4 twofiles.txt
+
+class1_00003.pgm	class1_00004.pgm	0.990784
+class1_00004.pgm	class1_00003.pgm	0.990784
+
+./PA4 onebadfile.txt
+(the _bad file does not have P2 identifier)
+ERROR: ANY ERROR MESSAGE
+
+
+./PA4 onefile.txt 
+(only one pgm in the file list)
+
+ERROR: ANY ERROR MESSAGE

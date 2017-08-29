@@ -1,0 +1,7 @@
+class1_00003_bad.pgm
+class1_00004.pgm
+class2_01521.pgm
+class3_00263.pgm
+class3_00264.pgm
+class4_00379.pgm
+class4_00380.pgm

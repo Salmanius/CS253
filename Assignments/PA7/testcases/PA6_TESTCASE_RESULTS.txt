@@ -1,0 +1,140 @@
+correct file test cases
+
+1. TEST 1 WITH K = 2 TYPE MEASURE 1
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm class4_00379.pgm class4_00380.pgm
+        class2_01521.pgm class3_00263.pgm class3_00264.pgm
+        OR EQUIVALENT
+
+2. TEST 2 WITH K = 2 TYPE MEASURE 2
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm class4_00379.pgm class4_00380.pgm
+        class2_01521.pgm class3_00263.pgm class3_00264.pgm
+        OR EQUIVALENT
+
+3. TEST 3 WITH K = 2 TYPE MEASURE 3
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm class4_00379.pgm class4_00380.pgm
+        class2_01521.pgm class3_00263.pgm class3_00264.pgm
+        OR EQUIVALENT
+
+4. TEST 4 WITH K = 4 TYPE MEASURE 1
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm class3_00264.pgm
+        class4_00379.pgm class4_00380.pgm
+
+5. TEST 5 WITH K = 4 TYPE MEASURE 2
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm class3_00264.pgm
+        class4_00379.pgm class4_00380.pgm
+
+6. TEST 6 WITH K = 4 TYPE MEASURE 3
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm class3_00264.pgm
+        class4_00379.pgm class4_00380.pgm
+
+7. TEST 7 WITH K = 6 TYPE MEASURE 1
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+        OR EQUIVALENT
+
+8. TEST 8 WITH K = 6 TYPE MEASURE 2
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+        OR EQUIVALENT
+
+9. TEST 9 WITH K = 6 TYPE MEASURE 3
+
+EXPECTED OUTPUT -
+        class1_00003.pgm class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+        OR EQUIVALENT
+
+10. TEST 10 WITH K = 7 TYPE MEASURE 1
+
+EXPECTED OUTPUT -
+        class1_00003.pgm
+        class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+
+11. TEST 11 WITH K = 7 TYPE MEASURE 2
+
+EXPECTED OUTPUT -
+        class1_00003.pgm
+        class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+
+12. TEST 12 WITH K = 7 TYPE MEASURE 3
+
+EXPECTED OUTPUT -
+        class1_00003.pgm
+        class1_00004.pgm
+        class2_01521.pgm
+        class3_00263.pgm
+        class3_00264.pgm
+        class4_00379.pgm
+        class4_00380.pgm
+
+
+ERROR TEST CASES
+
+13. Error case #1: K (# of cluster) is 0 (5 points) 
+
+14. Error case #2: file_of_files contains illegal filename (5 points)
+
+15. VALGRIND TEST (10 points)
+	CHECKING FOR 2 STATEMENTS
+	a. All heap blocks were freed -- no leaks are possible
+	b. ERROR SUMMARY: 0 errors from 0 contexts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
